@@ -1,11 +1,12 @@
-let arr = [10,20,6,15,25,0];
+let arr = [10,20,5,1,7,3]
 let minValue = Infinity;
 let maxValue = -Infinity;
 
 for(i of arr){
     if(i < minValue){
+
         minValue = i
-    }else{
+    }else if(i > maxValue){
         maxValue = i
     }
 }
