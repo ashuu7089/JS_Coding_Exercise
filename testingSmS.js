@@ -1,9 +1,4 @@
-const sendSMS = async () => {
-    const url = 'https://unitxt.co.tz/api/http/sms/send';
-    const token = '116|Xrcrr1eVs14e6u6HqXjKs1jEpakn3Mmo2AS2RzX';
-    const senderId ="KARIBU";
-    const recipient = 255674780007;
-  
+const sendSMS = async () => 
     const data = {
       recipient: recipient,
       sender_id: senderId,
